@@ -8,10 +8,6 @@ width: 180px;
 height: 30px;
 }
 
-.something{
-    margin-top: 200px;
-}
-
 .container{
     width: 1100px;
     margin: 0 auto;
@@ -280,6 +276,10 @@ width: 15px;
 height: 17px;
 }
 
+.special-news-container{
+    margin-top: -50px;
+}
+
 .special-news{
 width: 350px;
 height: 170px;
@@ -294,6 +294,8 @@ height: 767px;
 background: #1A1A1A;
 color: #FFFFFF;
 margin-top: 50px;
+margin-bottom: 50px;
+padding: 100px;
 }
 
 .grid-container{
@@ -309,11 +311,23 @@ grid-column-gap: 15px;
 /* FOOTER START */
 .footer{
 display: flex;
+justify-content: space-between;
 }
 
 footer{
 width: 1100px;
 height: 121px;
 margin: auto;
+display: flex;
+flex-direction: column;
+gap: 50px;
+margin-bottom: -50px ;
+}
+
+.footer-service{
+display: flex;
+flex-direction: column;
+align-items: end;
+gap: 10px;
 }
 /* FOOTER END */
